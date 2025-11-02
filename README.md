@@ -325,7 +325,6 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 ## 🙏 Acknowledgments
 
-- **XRPL Foundation** Asking for grant support
 - **Ripple** for XRPL infrastructure
 - **Community Contributors** for testing and feedback
 
