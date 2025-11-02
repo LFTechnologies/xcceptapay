@@ -1,0 +1,5 @@
+kivy>=2.3.0
+requests>=2.31.0
+cryptography>=41.0.0
+xrpl-py>=2.4.0
+bleak>=0.22.0

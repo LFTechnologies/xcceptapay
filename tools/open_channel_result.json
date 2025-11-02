@@ -1,0 +1,96 @@
+{
+  "close_time_iso": "2025-10-04T04:15:50Z",
+  "ctid": "C0AA81F200000001",
+  "hash": "7DC9B9B6E2CBBA8E5AE0F1AB43D7A7A706C5C2FA5A02137E8C02B7BD857A2677",
+  "ledger_hash": "2CC0AA2FFB443954B8198AA35D4596F66F876ABBD8B493D7092B8791765C7087",
+  "ledger_index": 11174386,
+  "meta": {
+    "AffectedNodes": [
+      {
+        "CreatedNode": {
+          "LedgerEntryType": "PayChannel",
+          "LedgerIndex": "1B06D34C0C4A1D8DDF188D35A33A9AEB394DD01EAF03D383BEFF334F06BA0994",
+          "NewFields": {
+            "Account": "r9Uags6kSd9iG3vFY3NSpPzPZkq3xDz49e",
+            "Amount": "2000000",
+            "Destination": "ra58fbivy22z5a2q3S1QQfUz6EbY9e5DRa",
+            "DestinationTag": 700123,
+            "PublicKey": "EDE54447743D55FE20448CCD97EDCCD0D9202B04F143F54B8E2ED383F902BB34D9",
+            "SettleDelay": 600
+          }
+        }
+      },
+      {
+        "ModifiedNode": {
+          "FinalFields": {
+            "Flags": 0,
+            "Owner": "ra58fbivy22z5a2q3S1QQfUz6EbY9e5DRa",
+            "RootIndex": "49ED65CB8DC27690DFD48FE2AD42F00D3E9A4FF863E6D2312C57F72E74B2AC77"
+          },
+          "LedgerEntryType": "DirectoryNode",
+          "LedgerIndex": "49ED65CB8DC27690DFD48FE2AD42F00D3E9A4FF863E6D2312C57F72E74B2AC77",
+          "PreviousTxnID": "EF0E37C5480B680CF7DFA073F6C0B776A2F8A35C8A0E4E1E8C29C1CC7BC9C9E5",
+          "PreviousTxnLgrSeq": 11172209
+        }
+      },
+      {
+        "CreatedNode": {
+          "LedgerEntryType": "DirectoryNode",
+          "LedgerIndex": "619F9EF938FA8C36F04EE89A1D4AF913FDC408138835E1C6FD1F828C831A15BC",
+          "NewFields": {
+            "Owner": "r9Uags6kSd9iG3vFY3NSpPzPZkq3xDz49e",
+            "RootIndex": "619F9EF938FA8C36F04EE89A1D4AF913FDC408138835E1C6FD1F828C831A15BC"
+          }
+        }
+      },
+      {
+        "ModifiedNode": {
+          "LedgerEntryType": "AccountRoot",
+          "LedgerIndex": "8DCAFACF1E6897D505AA9E50C9892F108F6462BA2579F268683F741245D0639A",
+          "PreviousTxnID": "CF1CB1C2246EF9796EADD33111805BF21CC2803969869FA623942616881CB8EF",
+          "PreviousTxnLgrSeq": 11172239
+        }
+      },
+      {
+        "ModifiedNode": {
+          "FinalFields": {
+            "Account": "r9Uags6kSd9iG3vFY3NSpPzPZkq3xDz49e",
+            "Balance": "7999990",
+            "Flags": 0,
+            "OwnerCount": 1,
+            "Sequence": 11174384
+          },
+          "LedgerEntryType": "AccountRoot",
+          "LedgerIndex": "F2685A0C9114735855EB8F26EC583942E47BACD70D0C1CE1DC0FB9F872353D69",
+          "PreviousFields": {
+            "Balance": "10000000",
+            "OwnerCount": 0,
+            "Sequence": 11174383
+          },
+          "PreviousTxnID": "DD0B3182EB84370A4DB3429613D51A03937D5A89ACD0AFEB6EEA828F3E41D27F",
+          "PreviousTxnLgrSeq": 11174383
+        }
+      }
+    ],
+    "TransactionIndex": 0,
+    "TransactionResult": "tesSUCCESS"
+  },
+  "tx_json": {
+    "Account": "r9Uags6kSd9iG3vFY3NSpPzPZkq3xDz49e",
+    "Amount": "2000000",
+    "Destination": "ra58fbivy22z5a2q3S1QQfUz6EbY9e5DRa",
+    "DestinationTag": 700123,
+    "Fee": "10",
+    "LastLedgerSequence": 11174404,
+    "PublicKey": "EDE54447743D55FE20448CCD97EDCCD0D9202B04F143F54B8E2ED383F902BB34D9",
+    "Sequence": 11174383,
+    "SettleDelay": 600,
+    "SigningPubKey": "EDE54447743D55FE20448CCD97EDCCD0D9202B04F143F54B8E2ED383F902BB34D9",
+    "TransactionType": "PaymentChannelCreate",
+    "TxnSignature": "911B70B15CFC9108077B1470EAA42D1DF26FD5D1D32BE05EFE31633F986056EF6D82E0937E9A6920F7FDF1230CF335B8BF9401EAC19EE34E18D1D6DD56DD3602",
+    "ctid": "C0AA81F200000001",
+    "date": 812866550,
+    "ledger_index": 11174386
+  },
+  "validated": true
+}

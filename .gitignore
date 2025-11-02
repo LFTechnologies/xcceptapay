@@ -1,0 +1,213 @@
+# ===================================
+# XRPL Offline Payments - .gitignore
+# ===================================
+
+# ===== SECURITY - NEVER COMMIT THESE =====
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.p12
+*.pfx
+
+# CRITICAL: Merchant seeds and private keys
+*seed*
+*private*key*
+merchant_wallet.txt
+.secrets/
+
+# ===== Node.js (API & Frontend) =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+*.local
+
+# Dependencies
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+
+# Cache
+.npm
+.eslintcache
+.node_repl_history
+*.tsbuildinfo
+
+# ===== Python (Kivy App & Tools) =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+virtualenv/
+
+# Python build
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Kivy
+*.kv.pyc
+kv.json
+.buildozer/
+bin/
+.gradle/
+
+# Android build (Kivy buildozer)
+*.apk
+*.aab
+.buildozer/
+buildozer.spec
+
+# ===== Docker =====
+# Keep docker-compose.yml but ignore overrides
+docker-compose.override.yml
+
+# ===== Database =====
+# MongoDB data (if local)
+mongodb_data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Redis dumps
+dump.rdb
+
+# ===== Logs =====
+logs/
+*.log
+*.log.*
+
+# ===== IDE / Editors =====
+.vscode/
+!.vscode/settings.json.example
+!.vscode/extensions.json.example
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===== OS =====
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ===== Firmware (Arduino/ESP32) =====
+*.ino.elf
+*.ino.bin
+*.ino.map
+.pio/
+.vscode/c_cpp_properties.json
+
+# ===== Frontend Specific =====
+# Vite
+.vite/
+
+# Next.js (if added later)
+.next/
+out/
+
+# React
+.cache/
+
+# ===== Certificates & SSL =====
+nginx/ssl/*.pem
+nginx/ssl/*.crt
+nginx/ssl/*.key
+*.crt
+*.cer
+
+# ===== Backups =====
+*.bak
+*.backup
+*.old
+*.orig
+backup/
+backups/
+
+# ===== Demo & Testing Data =====
+# Keep demo files but ignore generated data
+demo-claims/*.json
+demo-merchant-info.txt
+test-data/
+*.test.json
+
+# ===== Temporary Files =====
+tmp/
+temp/
+*.tmp
+*.temp
+.cache
+
+# ===== Package Manager =====
+.yarn/
+.pnp.*
+
+# ===== Documentation Build =====
+docs/_build/
+site/
+
+# ===== Miscellaneous =====
+*.pid
+*.seed
+*.pid.lock
+.grunt
+.lock-wscript
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+.vscode-test
+
+# ===== Production Artifacts =====
+# Keep examples but ignore actual production configs
+production.env
+prod.env
+.env.production.local
+
+# ===== Keep These Files =====
+# Explicitly keep important example files
+!.env.example
+!.gitkeep
+!README.md
+!LICENSE
+!CONTRIBUTING.md
