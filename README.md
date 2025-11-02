@@ -338,22 +338,22 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 ## 🗺️ Roadmap
 
-### Q1 2024
+### Q4 2024
 - ✅ Core payment flow implementation
 - ✅ Docker deployment
 - ✅ Web dashboard MVP
 
-### Q2 2024
-- 🚧 Hardware pilot (3 food trucks)
+### Q1 2025
+- 🚧 Hardware pilot (food truck)
 - 📋 Security audit
 - 📋 Mobile app (iOS/Android)
 
-### Q3 2024
+### Q2 2025
 - 📋 Multi-signature support
 - 📋 Advanced analytics
 - 📋 Developer SDK
 
-### Q4 2024
+### Q3 2025
 - 📋 Mainnet launch
 - 📋 Payment network expansion
 - 📋 Cross-currency support
