@@ -311,24 +311,6 @@ curl -X POST http://localhost:3000/devices/register \
 curl http://localhost:3000/receipts | jq
 ```
 
-## 📈 XRPL Grant Milestones
-
-| Milestone | Status | Deliverables |
-|-----------|--------|-------------|
-| **M1** | ✅ Complete | Kivy wallet, BLE comms, offline signing |
-| **M2** | ✅ Complete | Node.js API, MongoDB, claim queue |
-| **M3** | ✅ Complete | ESP32 firmware, BLE protocol, relay control |
-| **M4** | 🚧 In Progress | Pilot deployment, hardware prototyping |
-| **M5** | 📋 Planned | Security audit, code review |
-| **M6** | 📋 Planned | Documentation, developer portal |
-| **M7** | 🔄 Ongoing | Project management, reporting |
-
-**Total Funding**: $135,000 over 12 months
-
-## 🤝 Contributing
-
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
 ### Development Workflow
 
 1. Fork the repository
@@ -343,7 +325,7 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 ## 🙏 Acknowledgments
 
-- **XRPL Foundation** for grant support
+- **XRPL Foundation** Asking for grant support
 - **Ripple** for XRPL infrastructure
 - **Community Contributors** for testing and feedback
 
@@ -351,8 +333,8 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 - **Documentation**: [docs/](docs/)
 - **Issues**: [GitHub Issues](https://github.com/your-org/xrpl-offline-payments/issues)
-- **Email**: support@xacceptapay.com
-- **Discord**: [Join Community](https://discord.gg/xrpl)
+- **Email**: info@luciusfoxtech.com
+- **Discord**: [Join Community](https://discord.gg/hyperplaynetwork)
 
 ## 🗺️ Roadmap
 
@@ -429,4 +411,4 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 **Built with ❤️ for the XRPL Community**
 
-**[Website](https://xacceptapay.com)** • **[Demo](https://demo.xacceptapay.com)** • **[Docs](https://docs.xacceptapay.com)**
+**[Website](https://xcceptapay.com)** • **[Demo](https://demo.xcceptapay.com)** • **[Docs](https://docs.xcceptapay.com)**
